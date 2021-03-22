@@ -1,0 +1,43 @@
+
+:root {
+  --primary-color: #ffd633;
+  --background-color: #ffffcc;
+}
+
+.bananaTalk {
+  background-color: var(--primary-color);
+  font-size: 2.5rem;
+  font-weight: lighter;
+  font-family:  cursive;
+}
+
+.inputTextArea {
+  border : 1px solid black;
+  text-align: center;
+  width:50%;
+  height: 100px;
+}
+
+.jumbotron {
+  background-color: var(--background-color);
+}
+
+.btn-outline-dark:hover{
+  background-color: var(--primary-color);
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.borderOutput {
+  border: 2px solid black;
+  width:50%;
+  margin: auto;
+}
+.about {
+  background-color: var(--primary-color);
+  font-weight: lighter;
+  font-family:  cursive;
+}
+.about:hover {
+  font-size: 2rem;
+}
